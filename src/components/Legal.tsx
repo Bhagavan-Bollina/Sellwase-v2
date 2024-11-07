@@ -30,7 +30,7 @@ export default function Legal() {
               <p className="text-lg text-gray-600 mb-4">Last updated: {new Date().toLocaleDateString()}</p>
               <h2 className="text-2xl font-semibold mt-8 mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-600 mb-4">
-                By accessing or using UniMarket, you agree to be bound by these Terms of Service and all applicable laws and regulations.
+                By accessing or using Sellwase, you agree to be bound by these Terms of Service and all applicable laws and regulations.
               </p>
               <h2 className="text-2xl font-semibold mt-8 mb-4">2. User Responsibilities</h2>
               <p className="text-gray-600 mb-4">

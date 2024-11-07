@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
-        name: 'UniMarket',
-        short_name: 'UniMarket',
+        name: 'Sellwase',
+        short_name: 'Sellwase',
         description: 'Your Campus Life, Simplified',
         theme_color: '#1877F2',
         background_color: '#ffffff',

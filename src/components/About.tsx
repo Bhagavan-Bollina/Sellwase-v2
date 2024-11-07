@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="text-4xl font-bold mb-6">About UniMarket</h1>
+          <h1 className="text-4xl font-bold mb-6">About Sellwase</h1>
           <p className="text-xl text-gray-600">
             Transforming campus life through technology and community
           </p>
@@ -40,7 +40,7 @@ export default function About() {
           <h2 className="text-3xl font-bold mb-8 text-center">Our Story</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-600 mb-6">
-              Founded by students who experienced firsthand the challenges of campus life, UniMarket began as a simple idea in a dorm room. We recognized the need for a unified platform that could make student life more efficient, affordable, and sustainable.
+              Founded by students who experienced firsthand the challenges of campus life, Sellwase began as a simple idea in a dorm room. We recognized the need for a unified platform that could make student life more efficient, affordable, and sustainable.
             </p>
             <p className="text-lg text-gray-600">
               Today, we're proud to serve thousands of students across multiple universities, helping them save money, reduce their carbon footprint, and build lasting connections within their campus communities.

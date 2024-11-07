@@ -12,7 +12,7 @@ const instagramPosts = [
   {
     id: 2,
     imageUrl: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=600&q=80',
-    caption: 'Campus marketplace in action! 📚 #StudentLife #UniMarket',
+    caption: 'Campus marketplace in action! 📚 #StudentLife #Sellwase',
     likes: 189,
     comments: 32
   },
@@ -26,7 +26,7 @@ const instagramPosts = [
   {
     id: 4,
     imageUrl: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80',
-    caption: 'Connect with your campus community 🤝 #UniMarket #Community',
+    caption: 'Connect with your campus community 🤝 #Sellwase #Community',
     likes: 276,
     comments: 41
   }
@@ -38,7 +38,7 @@ export default function InstagramFeed() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center gap-3 mb-12">
           <Instagram className="w-8 h-8 text-[#1877F2]" />
-          <h2 className="text-3xl md:text-4xl font-bold">Follow Us @sellwase</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Follow Us @Sellwase</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -62,7 +62,7 @@ export default function InstagramFeed() {
 
         <div className="mt-12 text-center">
           <a
-            href="https://instagram.com/sellwase"
+            href="https://instagram.com/Sellwase"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-[#1877F2] to-[#1877F2]/80 text-white px-8 py-3 rounded-full hover:from-[#1877F2]/90 hover:to-[#1877F2]/70 transition-all"

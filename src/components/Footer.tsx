@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Store className="w-8 h-8 text-[#1877F2]" />
-              <span className="text-xl font-bold text-[#1877F2]">UniMarket</span>
+              <span className="text-xl font-bold text-[#1877F2]">Sellwase</span>
             </div>
             <p className="text-gray-600 mb-4">
               Transforming campus life with smart mobility and marketplace solutions.
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t mt-12 pt-8 text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} UniMarket. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sellwase. All rights reserved.</p>
         </div>
       </div>
     </footer>

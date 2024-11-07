@@ -9,7 +9,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Store className="w-8 h-8 text-[#1877F2]" />
-          <span className="text-xl font-bold text-[#1877F2]">UniMarket</span>
+          <span className="text-xl font-bold text-[#1877F2]">Sellwase</span>
         </div>
 
         <div className="hidden md:flex items-center gap-8">

@@ -48,7 +48,7 @@ export default function Sustainability() {
 
         <div className="bg-[#1877F2]/5 p-8 rounded-2xl">
           <blockquote className="text-xl italic text-center text-gray-700">
-            "By choosing to share rides and resources through UniMarket, each student becomes part of a larger movement towards sustainable campus living. Together, we're creating a future where convenience meets responsibility."
+            "By choosing to share rides and resources through Sellwase, each student becomes part of a larger movement towards sustainable campus living. Together, we're creating a future where convenience meets responsibility."
           </blockquote>
         </div>
       </div>
