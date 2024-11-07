@@ -23,7 +23,7 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-[#1877F2]" />
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-600">support@Sellwase.com</p>
+                    <p className="text-gray-600">support@sellwase.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
