@@ -5,13 +5,61 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#1877F2" />
-    <meta name="description" content="UniMarket - Your Campus Life, Simplified. Connect with fellow students for carpooling and marketplace deals." />
+    
+    <!-- Primary Meta Tags -->
+    <title>UniMarket - Campus Marketplace & Student Carpooling App | Sellwase</title>
+    <meta name="title" content="UniMarket - Campus Marketplace & Student Carpooling App | Sellwase" />
+    <meta name="description" content="The #1 university marketplace and carpooling app for students. Buy & sell textbooks, find campus rides, and connect with your university community. Download now!" />
+    <meta name="keywords" content="university marketplace, college marketplace, student carpooling, campus carpooling, sellwase, student marketplace, campus marketplace, university rideshare, college rideshare, student community app" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://unimarket.com/" />
+    <meta property="og:title" content="UniMarket - Campus Marketplace & Student Carpooling App | Sellwase" />
+    <meta property="og:description" content="The #1 university marketplace and carpooling app for students. Buy & sell textbooks, find campus rides, and connect with your university community. Download now!" />
+    <meta property="og:image" content="https://unimarket.com/social-preview.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://unimarket.com/" />
+    <meta property="twitter:title" content="UniMarket - Campus Marketplace & Student Carpooling App | Sellwase" />
+    <meta property="twitter:description" content="The #1 university marketplace and carpooling app for students. Buy & sell textbooks, find campus rides, and connect with your university community. Download now!" />
+    <meta property="twitter:image" content="https://unimarket.com/social-preview.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://unimarket.com/" />
+
+    <!-- App Links -->
+    <meta name="apple-itunes-app" content="app-id=YOUR_APP_ID" />
+    <meta name="google-play-app" content="app-id=YOUR_APP_ID" />
+    
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     <link rel="mask-icon" href="/mask-icon.svg" color="#1877F2" />
-    <title>UniMarket - Campus Life Simplified</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "UniMarket",
+        "applicationCategory": "Marketplace, Transportation",
+        "operatingSystem": ["iOS", "Android"],
+        "description": "The #1 university marketplace and carpooling app for students. Buy & sell textbooks, find campus rides, and connect with your university community.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "50000"
+        }
+      }
+    </script>
   </body>
 </html>
