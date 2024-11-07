@@ -62,7 +62,7 @@ export default function InstagramFeed() {
 
         <div className="mt-12 text-center">
           <a
-            href="https://instagram.com/Sellwase"
+            href="https://instagram.com/thesellwase/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-[#1877F2] to-[#1877F2]/80 text-white px-8 py-3 rounded-full hover:from-[#1877F2]/90 hover:to-[#1877F2]/70 transition-all"
