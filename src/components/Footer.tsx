@@ -1,7 +1,21 @@
-import React from 'react';
 import { Store, Facebook, Twitter, Instagram } from 'lucide-react';
 
 export default function Footer() {
+    // Function to handle redirection to the App Store
+    const handleAppStoreClick = () => {
+      window.open(
+        "https://apps.apple.com/us/app/sellwase/id6477298187",
+        "_blank"
+      );
+    };
+  
+    // Function to handle redirection to the Google Play Store
+    const handlePlayStoreClick = () => {
+      window.open(
+        "https://play.google.com/store/apps/details?id=com.app.sellwase",
+        "_blank"
+      );
+    };
   return (
     <footer className="bg-gray-50">
       <div className="container mx-auto px-4 py-12">
@@ -48,12 +62,12 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Download</h3>
             <div className="space-y-3">
-              <button className="w-full bg-black text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2">
-                <img src="/src/assets/apple.svg" alt="App Store" className="w-6 h-6" />
+              <button onClick={handleAppStoreClick} className="w-full bg-gray-300 text-black px-4 py-2 rounded-lg flex items-center justify-center gap-2">
+                <img src="/src/assets/apple.svg" alt="App Store"  className="w-6 h-6" />
                 App Store
               </button>
-              <button className="w-full bg-[#1877F2] text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2">
-                <img src="/src/assets/google-play.svg" alt="Google Play" className="w-6 h-6" />
+              <button  onClick={handlePlayStoreClick} className="w-full bg-[#1877F2] text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2">
+                <img src="/src/assets/google-play.svg" alt="Google Play" onClick={handlePlayStoreClick} className="w-6 h-6" />
                 Google Play
               </button>
             </div>
