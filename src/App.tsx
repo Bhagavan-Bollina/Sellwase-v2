@@ -9,22 +9,28 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Legal from './components/Legal';
 import Footer from './components/Footer';
+import DownloadModal from './components/DownloadModal';
+import { ModalProvider } from './components/ModalContext';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <Hero />
-      <Sustainability />
-      <Features />
-      <Traction />
-      <Partners />
-      <InstagramFeed />
-      <About />
-      <Contact />
-      <Legal />
-      <Footer />
-    </div>
+    <ModalProvider>
+      <div className="min-h-screen bg-white">
+        <Header />
+        <Hero />
+        <Sustainability />
+        <Features />
+        <Traction />
+        <Partners />
+        <InstagramFeed />
+        <About />
+        <Contact />
+        <Legal />
+        <Footer />
+        {/* Render Modal at the top level */}
+        <DownloadModal />
+      </div>
+    </ModalProvider>
   );
 }
 
