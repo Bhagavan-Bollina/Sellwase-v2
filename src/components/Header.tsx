@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, X, Download, Car, Store, ChevronDown } from 'lucide-react';
+import { Menu, X, Download, Store, ChevronDown } from 'lucide-react';
 
 export default function Header() {
   const [isOpen, setIsOpen] = React.useState(false);

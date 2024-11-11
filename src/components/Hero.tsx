@@ -1,9 +1,6 @@
-import React from 'react';
-import { Download } from 'lucide-react';
-
 export default function Hero() {
   return (
-    <div className="min-h-screen pt-20 bg-gradient-to-b from-[#1877F2]/10 to-white">
+    <div className="min-h-screen pt-60 bg-gradient-to-b from-[#1877F2]/10 to-white">
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 text-center lg:text-left">
@@ -18,7 +15,7 @@ export default function Hero() {
                 <img src="/src/assets/google-play.svg" alt="Get Sellwase on Google Play" className="w-6 h-6" />
                 Get it on Google Play
               </button>
-              <button className="bg-black text-white px-8 py-4 rounded-full flex items-center justify-center gap-2 hover:bg-black/90 shadow-lg">
+              <button className="bg-white text-black px-8 py-4 rounded-full flex items-center justify-center gap-2 hover:bg-black/90 shadow-lg">
                 <img src="/src/assets/apple.svg" alt="Download Sellwase on App Store" className="w-6 h-6" />
                 Download on App Store
               </button>
