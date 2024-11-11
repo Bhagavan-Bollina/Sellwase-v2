@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, X, Download, Store, ChevronDown } from 'lucide-react';
+import { Menu, X, Download, Store } from 'lucide-react';
 
 export default function Header() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -13,11 +13,11 @@ export default function Header() {
         </div>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-gray-600 hover:text-[#1877F2]">Features</a>
-          <a href="#about" className="block px-4 py-2 hover:bg-gray-50">About Us</a>
-          <a href="#contact" className="block px-4 py-2 hover:bg-gray-50">Contact</a>
-          <a href="#privacy" className="block px-4 py-2 hover:bg-gray-50">Privacy Policy</a>
-          <a href="#terms" className="block px-4 py-2 hover:bg-gray-50">Terms of Service</a>
+          <a href="#features" className="block px-4 py-2 hover:text-[#1877F2]">Features</a>
+          <a href="#about" className="block px-4 py-2 hover:text-[#1877F2]">About Us</a>
+          <a href="#contact" className="block px-4 py-2 hover:text-[#1877F2]">Contact</a>
+          <a href="#privacy" className="block px-4 py-2 hover:text-[#1877F2]">Privacy Policy</a>
+          <a href="#terms" className="block px-4 py-2 hover:text-[#1877F2]">Terms of Service</a>
           <button className="bg-[#1877F2] text-white px-6 py-2 rounded-full flex items-center gap-2 hover:bg-[#1877F2]/90">
             <Download className="w-4 h-4" /> Download App
           </button>
