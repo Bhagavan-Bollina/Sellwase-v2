@@ -14,17 +14,10 @@ export default function Header() {
 
         <div className="hidden md:flex items-center gap-8">
           <a href="#features" className="text-gray-600 hover:text-[#1877F2]">Features</a>
-          <div className="relative group">
-            <button className="flex items-center gap-1 text-gray-600 hover:text-[#1877F2]">
-              Company <ChevronDown className="w-4 h-4" />
-            </button>
-            <div className="absolute hidden group-hover:block w-48 bg-white shadow-lg rounded-lg mt-2 py-2">
-              <a href="#about" className="block px-4 py-2 hover:bg-gray-50">About Us</a>
-              <a href="#contact" className="block px-4 py-2 hover:bg-gray-50">Contact</a>
-              <a href="#privacy" className="block px-4 py-2 hover:bg-gray-50">Privacy Policy</a>
-              <a href="#terms" className="block px-4 py-2 hover:bg-gray-50">Terms of Service</a>
-            </div>
-          </div>
+          <a href="#about" className="block px-4 py-2 hover:bg-gray-50">About Us</a>
+          <a href="#contact" className="block px-4 py-2 hover:bg-gray-50">Contact</a>
+          <a href="#privacy" className="block px-4 py-2 hover:bg-gray-50">Privacy Policy</a>
+          <a href="#terms" className="block px-4 py-2 hover:bg-gray-50">Terms of Service</a>
           <button className="bg-[#1877F2] text-white px-6 py-2 rounded-full flex items-center gap-2 hover:bg-[#1877F2]/90">
             <Download className="w-4 h-4" /> Download App
           </button>
