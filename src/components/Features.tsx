@@ -1,5 +1,6 @@
-import React from 'react';
 import { Car, ShoppingBag, Users, Shield } from 'lucide-react';
+import Traction from './Traction';
+import Partners from './Partners';
 
 const features = [
   {
@@ -41,6 +42,8 @@ export default function Features() {
           ))}
         </div>
       </div>
+      <Traction />
+      <Partners />
     </section>
   );
 }
