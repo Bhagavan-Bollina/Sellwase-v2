@@ -1,5 +1,6 @@
 import { useState, ChangeEvent, FormEvent } from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
+import InstagramFeed from './InstagramFeed';
 
 interface FormData {
   name: string;
@@ -130,6 +131,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <InstagramFeed/>
     </section>
   );
 }
