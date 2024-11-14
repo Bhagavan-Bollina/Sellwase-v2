@@ -1,4 +1,5 @@
-import { Store, Instagram, Linkedin } from "lucide-react";
+import { Instagram, Linkedin } from "lucide-react";
+import sellwaseLogo from "../assets/sellwase.svg";
 
 export default function Footer() {
   // Function to handle redirection to the App Store
@@ -21,10 +22,12 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Store className="w-8 h-8 text-[#1877F2]" />
-              <span className="text-xl font-bold text-[#1877F2]">Sellwase</span>
-            </div>
+          <div className="flex items-center gap-3">
+  <img src={sellwaseLogo} alt="Sellwase Logo" className="w-12 h-12 object-contain" />
+  <a href="#" className="flex items-center">
+    <span className="text-xl font-bold text-[#1877F2] leading-none">Sellwase</span>
+  </a>
+</div>
             <p className="text-gray-600 mb-4">
               Transforming campus life with smart mobility and marketplace
               solutions.

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Download, Store, Menu, X } from "lucide-react";
+import { Download, Menu, X } from "lucide-react";
 import { useModal } from "./ModalContext";
+import sellwaseLogo from "../assets/sellwase.svg";
 
 const Header: React.FC = () => {
   const { openModal } = useModal();
@@ -43,21 +44,22 @@ const Header: React.FC = () => {
 
   const getLinkClass = (section: string) =>
     `block px-4 py-2 ${
-      activeSection === section ? "text-[#1877F2] font-semibold" : "hover:text-[#1877F2]"
+      activeSection === section
+        ? "text-[#1877F2] font-semibold"
+        : "hover:text-[#1877F2]"
     }`;
 
   return (
     <header className="fixed w-full bg-white/90 backdrop-blur-sm z-50 border-b">
       <nav className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <a href="#">
-            <Store className="w-8 h-8 text-[#1877F2]" />
-          </a>
-          <a href="#">
-            <span className="text-xl font-bold text-[#1877F2]">Sellwase</span>
-          </a>
-        </div>
+        <div className="flex items-center gap-3">
+  <img src={sellwaseLogo} alt="Sellwase Logo" className="w-12 h-12 object-contain" />
+  <a href="#" className="flex items-center">
+    <span className="text-xl font-bold text-[#1877F2] leading-none">Sellwase</span>
+  </a>
+</div>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
@@ -95,7 +97,11 @@ const Header: React.FC = () => {
           className="md:hidden flex items-center text-gray-600"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
-          {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {isMobileMenuOpen ? (
+            <X className="w-6 h-6" />
+          ) : (
+            <Menu className="w-6 h-6" />
+          )}
         </button>
       </nav>
 
